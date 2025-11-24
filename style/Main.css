@@ -5,6 +5,12 @@ color: black;
 text-align: center;
 }
 
+.endnote
+{
+color: blue;
+font-size: 12px;
+}
+
 #img1
 {
 width: 682px;
@@ -24,6 +30,13 @@ width: 50px;
 #img0:hover
 {
 opacity: 50%;
+}
+
+#cover-image
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .left-aside
@@ -73,7 +86,7 @@ background-color: white;
 padding: 1rem;
 }
 
-#pne-title
+.subtopic-title
 {
 text-align: center;
 font-size: 22px;
@@ -98,7 +111,7 @@ margin: 50px;
 
 #white-text
 {
-font-color: #ffffff;
+color: #ffffff;
 }
 
 .font
