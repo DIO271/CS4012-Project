@@ -28,3 +28,15 @@ justify-content: center;
 {
 background-color: #f7f7f7;
 }
+
+
+
+
+
+
+#bottom-bar
+{
+background-color: black;
+width: auto;
+height: 500px;
+}
