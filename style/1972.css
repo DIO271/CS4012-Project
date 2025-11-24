@@ -1,11 +1,11 @@
 #titleBar
 {
-font-family: "Anton", sans-serif;
+font-family: "Anton", sans-serif; /* as close of a font to the official Olympics page (Bebas Neue) without doing some really funky stuff. Might change it to that later if there's time */
 color: black;
 text-align: center;
 }
 
-.endnote
+.endnote /* the blue numbers which link to where I got information from, again please steal I think its a good mark gainer */
 {
 color: blue;
 font-size: 12px;
@@ -27,13 +27,13 @@ width: 100px;
 width: 50px;
 }
 
-#img0:hover
+#img0:hover /* could have made this a class for when I reuse it later but like usual, its done now. */
 {
-opacity: 50%;
+opacity: 50%; /* this is for the image hovering incase it wasn't clear */
 }
 
 #cover-image
-{
+{               /* centers image no matter the page size, please someone help with the sizing though. please */
 display: block;
 margin-left: auto;
 margin-right: auto;
