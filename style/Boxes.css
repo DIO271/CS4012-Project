@@ -1,0 +1,30 @@
+#titleBox
+{
+background-color: #f5f5f5;
+padding: 0.2rem;
+}
+
+#topbar
+{
+
+}
+
+#linkBar
+{
+background-color: #f7f7f7;
+color: gray;
+text-align: center;
+}
+
+#linkBar-list
+{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#participants-text
+{
+background-color: #f7f7f7;
+}

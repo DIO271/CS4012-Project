@@ -1,0 +1,95 @@
+#titleBar
+{
+font-family: "Anton", sans-serif;
+color: black;
+text-align: center;
+}
+
+#img1
+{
+width: 682px;
+align: center;
+}
+
+#img0
+{
+width: 100px;
+}
+
+#olyLogo
+{
+width: 50px;
+}
+
+#img0:hover
+{
+opacity: 50%;
+}
+
+.left-aside
+{
+float: left;
+margin: 1em;
+}
+
+.right-aside
+{
+float: right;
+margin: 0.6em;
+}
+
+#olyLogo:hover
+{
+opacity: 50%;
+}
+
+#participants
+{
+margin: 0.2rem;
+font-size: 16px;
+}
+
+#tragedy
+{
+margin: 0.2rem;
+font-size: 16px;
+}
+
+#Irish
+{
+margin: 0.2rem;
+font-size: 16px;
+}
+
+#Medal
+{
+margin: 0.2rem;
+font-size: 16px;
+}
+
+.spacer
+{
+background-color: white;
+padding: 1rem;
+}
+
+#pne-title
+{
+text-align: center;
+font-size: 22px;
+}
+
+#participants-img
+{
+width: 600px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+.font
+{
+font-family: "Anton", sans-serif;
+}
