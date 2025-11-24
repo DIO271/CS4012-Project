@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- don't say a word about my spelling alright? English is hard -->
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style/Main.css">
@@ -8,7 +8,7 @@
 </head>
     <body class="font">
         <div id="titleBox">
-            <div id="topBar">
+            <div id="topBar"> <!-- the images with imbedded links, see the Main.css for the opacity and :hover style -->
             <aside class="left-aside">
                 <a href="https://www.olympics.com/en/"><img id="img0" src="images/OlympicRinga.png" alt="the Olympic rings"></a>
             </aside>
@@ -20,23 +20,23 @@
                 The Summer Olympic Games, 1972
             </h1>
             <div id="linkBar">
-                <ul id="linkBar-list">
-                    <li id="participants">Participants and Events</li>
-                    <li id="tragedy">Tragedy</li>
-                    <li id="Irish">Ireland's Performance</li>
-                    <li id="Medal">Medal Winners</li>
+                <ul id="linkBar-list">  <!-- the <a href="#BLANK"> is what makes the "click to jump to" effect, feel free to steal, it works better than I thought. also you can put a tag before the href and change the color and style of it cause the blue is yucky, see the jump to top button for ref -->
+                    <li id="participants"><a href="#pne-article">Participants and Events</a></li>
+                    <li id="tragedy"><a href="#tragedy-article">Tragedy</a></li>
+                    <li id="Irish"><a href="#irish-performance">reland's Performance</a></li>
+                    <li id="Medal"><a href="#medal-article">Medal Winners</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="spacer"></div>
 
-        <div><img id="cover-image" src="images/1972opening.png" alt="1972 opening ceremony"></div>
+        <div><img id="cover-image" src="images/1972opening.png" alt="1972 opening ceremony"></div> <!-- will try add Illia's gradient styling later but it looked painful so it can wait -->
 
         <div class="spacer"></div>
 
-        <div class="subtopic">
-            <article>
+        <div class="subtopic"> <!-- subtopic class for background color which isn't great but left in to relate to the article styling on the official site -->
+            <article id="pne-article">
                 <h4 class="subtopic-title">
                     Participants and Events
                 </h4>
@@ -61,6 +61,9 @@
                 While making it to the Olympics, Ireland did not win any medals over the two week long event.
                 only advancing in Athletics, (3 athletes in the Men's marathon and one in Women's pentathlon) Cycling (4 athletes in the individual road race) and rowing. (1 athlete in Men's single sculls)
             </p>
+            <aside class="right-aside">
+                <img id="mary-tracey" src="images/MaryTracy.jpg" alt="Mary Tracey post race 1972">
+            </aside>
             <p>
                 Although, unsuccessful in obtaining a medal. A national record was set by Mary Tracey in the Women's 1,500 metres athletics with a time of 4:16.43.
                 A record which only stood for 4 years, until the following Olympics where she broke it again!
@@ -73,7 +76,7 @@
 
     <div class="spacer"></div>
 
-    <div class="subtopic">
+    <div class="subtopic"> <!-- will be adding more content soon, it hard to find enough to write about ngl -->
        <article id="tragedy-article">
            <h4 class="subtopic-title">
                The Munich Massacre
@@ -91,7 +94,7 @@
             <h4 class="subtopic-title">
                 Medals Awarded
             </h4>
-            <p id="medal-text">
+            <p id="medal-text"> <!-- put in images later when all the text and other formatting is done, is that the best way to do it? probably not but it is for now. -->
                ghjklrtfgyhujk
             </p>
         </article>
@@ -99,16 +102,18 @@
 
     <div class="spacer"></div>
 
-    <div>
+    <div>   <!-- would probably position better in just one div total but its formatted fine for now -->
         <img id="white-logo" src="images/whiteRings.jpg" alt="olympicLogo-white">
     </div>
-
+<!-- normally has the contact details and some other things that aren't relevant to the project so just filling with some gimmicks that didn't fit anywhere else -->
+        <!-- currently struggling to get the text positions/margins right, they either don't work or just disappear lmao-->
     <div id="bottom-bar">
         <aside class="right-aside">
-            <p id="white-text">
-
-            </p>
+            <h5 id="top-button"><a class="white-text" href="#titleBox">Back to the top.</a></h5>
         </aside>
+        <p id="black-box-text" class="white-text">
+            jirdhgkrjblfdhngbsjpkfn
+        </p>
     </div>
 
     </body>
