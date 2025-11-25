@@ -24,7 +24,7 @@ align-items: center;
 justify-content: center;
 }
 
-.subtopic /* I don't know if we're doing the off-white color for the back of articles */
+.subtopic /* I don't know if we're doing the off-white color for the back of articles. also how do I get the box to spill a little over the top of the text?? */
 {
 background-color: #f7f7f7;
 }

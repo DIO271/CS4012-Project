@@ -5,6 +5,12 @@ color: black;
 text-align: center;
 }
 
+.spacer
+{
+background-color: white;
+padding: 1rem;
+}
+
 .endnote /* the blue numbers which link to where I got information from, again please steal I think its a good mark gainer */
 {
 color: blue;
@@ -19,7 +25,8 @@ align: center;
 
 #img0
 {
-width: 100px;
+width: 120px;
+margin: 0.5em;
 }
 
 #olyLogo
@@ -56,16 +63,47 @@ margin: 0.6em;
 opacity: 50%;
 }
 
+.subtopic-title
+{
+text-align: center;
+margin: 0.5em;
+font-size: 22px;
+}
+
 #participants
 {
 margin: 0.4rem;
 font-size: 16px;
 }
 
+#participants-list
+{
+text-align: left;
+margin-left: 8em;
+}
+
+#events-list
+{
+text-align: right;
+margin-right: 10em;
+}
+
+#participants-img
+{
+width: 600px;
+margin-left: 1em;
+}
+
+#events-img
+{
+width: 60%;
+margin-left: 1em;
+align: right;
+}
+
 #pne-endnote
 {
 text-align: center;
-margin-left: 550px;
 }
 
 #tragedy
@@ -85,6 +123,8 @@ font-size: 16px;
 width: 120px;
 border-radius: 50%;
 box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+border: 10px solid #f6f6f6;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #Medal
@@ -145,7 +185,9 @@ width: 50px;
 
 #medal-info-title   /* can't really get this to sit on top of the info under it just yet */
 {
-margin-right: 2em;
+width: 100px;
+margin-right: 0.8em;
+font-size: 3em;
 }
 
 #medal-info
@@ -162,26 +204,8 @@ border: 10px solid #f6f6f6;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.spacer
-{
-background-color: white;
-padding: 1rem;
-}
 
-.subtopic-title
-{
-text-align: center;
-margin: 0.5em;
-font-size: 22px;
-}
 
-#participants-img
-{
-width: 600px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
 
 
 
