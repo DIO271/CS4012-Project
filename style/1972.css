@@ -127,6 +127,95 @@ border: 10px solid #f6f6f6;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#irelands-participation
+{
+display: flex;
+}
+
+#Athletics-symbol
+{
+width: 50px;
+height: 50px;
+margin-right: 0.3em;
+}
+
+#Shooting-symbol
+{
+width: 50px;
+height: 50px;
+margin-right: 0.3em;
+}
+
+#Boxing-symbol
+{
+width: 50px;
+height: 50px;
+margin-right: 0.3em;
+}
+
+#Canoeing-symbol
+{
+width: 50px;
+height: 50px;
+margin-right: 0.3em;
+}
+
+#Cycling-symbol
+{
+width: 50px;
+height: 50px;
+margin-right: 0.3em;
+}
+
+#Fencing-symbol
+{
+width: 50px;
+height: 50px;
+margin-right: 0.3em;
+}
+
+#Equestrianism-symbol
+{
+width: 50px;
+height: 50px;
+margin-right: 0.3em;
+}
+
+#Judo-symbol
+{
+width: 50px;
+height: 50px;
+margin-right: 0.3em;
+}
+
+#Rowing-symbol
+{
+width: 50px;
+height: 50px;
+margin-right: 0.3em;
+}
+
+#Sailing-symbol
+{
+width: 50px;
+height: 50px;
+margin-right: 0.3em;
+}
+
+#Swimming-symbol
+{
+width: 50px;
+height: 50px;
+margin-right: 0.3em;
+}
+
+#Weightlifting-symbol
+{
+width: 50px;
+height: 50px;
+margin-right: 0.3em;
+}
+
 #Medal
 {
 margin: 0.4rem;
