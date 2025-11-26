@@ -4,9 +4,12 @@ background-color: #f5f5f5;
 padding: 0.2rem;
 }
 
-#topbar
+.topbar
 {
-
+overflow: hidden;
+position: fixed;
+width: 100%;
+top: 0;
 }
 
 #linkBar

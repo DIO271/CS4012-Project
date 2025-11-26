@@ -1,5 +1,6 @@
 #titleBar
 {
+position: sticky;
 font-family: "Anton", sans-serif; /* as close of a font to the official Olympics page (Bebas Neue) without doing some really funky stuff. Might change it to that later if there's time */
 color: black;
 text-align: center;
@@ -44,6 +45,9 @@ opacity: 50%; /* this is for the image hovering incase it wasn't clear */
 display: block;
 margin-left: auto;
 margin-right: auto;
+margin-top: 140px;
+border: 10px solid #f6f6f6;
+box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .left-aside
@@ -136,84 +140,96 @@ display: flex;
 {
 width: 50px;
 height: 50px;
-margin-right: 0.3em;
+margin-right: 1.5em;
+margin-left: 0.1em;
 }
 
 #Shooting-symbol
 {
 width: 50px;
 height: 50px;
-margin-right: 0.3em;
+margin-right: 1.5em;
+margin-left: 0.1em;
 }
 
 #Boxing-symbol
 {
 width: 50px;
 height: 50px;
-margin-right: 0.3em;
+margin-right: 1.5em;
+margin-left: 0.1em;
 }
 
 #Canoeing-symbol
 {
 width: 50px;
 height: 50px;
-margin-right: 0.3em;
+margin-right: 1.5em;
+margin-left: 0.1em;
 }
 
 #Cycling-symbol
 {
 width: 50px;
 height: 50px;
-margin-right: 0.3em;
+margin-right: 1.5em;
+margin-left: 0.1em;
 }
 
 #Fencing-symbol
 {
 width: 50px;
 height: 50px;
-margin-right: 0.3em;
+margin-right: 1.5em;
+margin-left: 0.1em;
 }
 
 #Equestrianism-symbol
 {
 width: 50px;
 height: 50px;
-margin-right: 0.3em;
+margin-right: 1.5em;
+margin-left: 0.1em;
 }
 
 #Judo-symbol
 {
 width: 50px;
 height: 50px;
-margin-right: 0.3em;
+margin-right: 1.5em;
+margin-left: 0.1em;
 }
 
 #Rowing-symbol
 {
 width: 50px;
 height: 50px;
-margin-right: 0.3em;
+margin-right: 1.5em;
+margin-left: 0.1em;
 }
 
 #Sailing-symbol
 {
 width: 50px;
 height: 50px;
-margin-right: 0.3em;
+margin-right: 1.5em;
+margin-left: 0.1em;
 }
 
 #Swimming-symbol
 {
 width: 50px;
 height: 50px;
-margin-right: 0.3em;
+margin-right: 1.5em;
+margin-left: 0.1em;
 }
 
 #Weightlifting-symbol
 {
 width: 50px;
 height: 50px;
-margin-right: 0.3em;
+margin-right: 1.5em;
+margin-left: 0.1em;
 }
 
 #Medal
@@ -287,7 +303,7 @@ margin-right: 2em;
 
 #Gold-medal
 {
-width: 200px;
+width: 250px;
 margin-right: 8em;
 border: 10px solid #f6f6f6;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -295,7 +311,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 #Mary-Peters-medal
 {
-margin-left: 3em;
+margin-left: 21em;
 }
 
 
@@ -307,6 +323,11 @@ margin-left: 3em;
 float: left;
 width: 130px;
 margin: 50px;
+}
+
+#white-logo:hover
+{
+opacity: 50%;
 }
 
 .white-text
