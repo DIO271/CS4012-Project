@@ -1,3 +1,47 @@
+#img0-ref
+{
+float: left;
+width: 200px;
+margin: 2em;
+}
+
+#contact-title
+{
+text-align: center;
+background-color: #f6f6f6;
+padding: 2em;
+}
+
+#main-page
+{
+background-color: #f6f6f6
+}
+
+#1904-games
+{
+background-color: #f6f6f6
+}
+
+#1972-games
+{
+background-color: #f6f6f6
+}
+
+#1992-games
+{
+background-color: #f6f6f6
+}
+
+#contacts-page
+{
+background-color: #f6f6f6
+}
+
+#references-page
+{
+background-color: #f6f6f6
+}
+
 .ref-table-text
 {
 color: #ffffff
@@ -8,6 +52,7 @@ margin: 2em;
 {
 background-color: white;
 padding: 0.1em;
+margin-top: 20em;
 }
 
 #references-title
@@ -40,4 +85,12 @@ padding: 3em;
 #links
 {
 background-color: #f6f6f6;
+}
+
+#bottom-bar-ref
+{
+margin-top: 20em;
+background-color: black;
+width: auto;
+height: 500px;
 }
