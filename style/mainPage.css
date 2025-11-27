@@ -16,7 +16,13 @@
     height: 70%;
 }
 
-.text {
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshowText {
     position: absolute;
     z-index: 100;
     top: 50%;
@@ -25,13 +31,13 @@
     height: 100%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 200%;
+    font-size: 600%;
     text-align: center;
 }
 
 a {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 250%;
+    font-size: 100%;
     color: #fff;
     text-decoration: none;
 }
@@ -83,6 +89,10 @@ a {
 
 .active, .dot:hover {
     background-color: #717171;
+}
+
+#main:hover {
+    opacity: 50%;
 }
 
 /* Fading animation */
