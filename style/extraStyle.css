@@ -1,8 +1,21 @@
 #img0-ref
 {
 float: left;
-width: 200px;
-margin: 2em;
+width: 140px;
+margin: 1em;
+}
+
+#img0-ref:hover
+{
+opacity: 50%;
+}
+
+#Joan-ref-title
+{
+width: 160px;
+background-color: #f7f7f7;
+padding: 0.2em;
+margin-top: 10em;
 }
 
 #contact-title
@@ -12,39 +25,46 @@ background-color: #f6f6f6;
 padding: 2em;
 }
 
+.block
+{
+list-style: none;
+width: 250px;
+display: block;
+}
+
 #main-page
 {
-background-color: #f6f6f6
+background-color: #f6f6f6;
 }
 
-#1904-games
+#Cyan-games
 {
-background-color: #f6f6f6
+background-color: #f6f6f6;
 }
 
-#1972-games
+#Joan-games
 {
-background-color: #f6f6f6
+background-color: #f6f6f6;
 }
 
-#1992-games
+#Nika-games
 {
-background-color: #f6f6f6
+background-color: #f6f6f6;
 }
 
 #contacts-page
 {
-background-color: #f6f6f6
+background-color: #f6f6f6;
 }
 
 #references-page
 {
-background-color: #f6f6f6
+background-color: #f6f6f6;
 }
 
 .ref-table-text
 {
-color: #ffffff
+color: #ffffff;
 margin: 2em;
 }
 
@@ -52,15 +72,14 @@ margin: 2em;
 {
 background-color: white;
 padding: 0.1em;
-margin-top: 20em;
 }
 
 #references-title
 {
 text-align: center;
 background-color: #f6f6f6;
-padding-top: 3em;
-padding-bottom: 3em;
+padding-top: 1em;
+padding-bottom: 1em;
 }
 
 #table-top
