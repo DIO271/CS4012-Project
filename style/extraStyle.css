@@ -1,0 +1,43 @@
+.ref-table-text
+{
+color: #ffffff
+margin: 2em;
+}
+
+#references
+{
+background-color: white;
+padding: 0.1em;
+}
+
+#references-title
+{
+text-align: center;
+background-color: #f6f6f6;
+padding-top: 3em;
+padding-bottom: 3em;
+}
+
+#table-top
+{
+background-color: #f7f7f7;
+padding: 0.5em;
+}
+
+.table-body
+{
+background-color: #f6f6f6
+padding: 0.5em;
+}
+
+#not-that-far-aside
+{
+margin-right: 150px;
+background-color: #f7f7f7;
+padding: 3em;
+}
+
+#links
+{
+background-color: #f6f6f6;
+}

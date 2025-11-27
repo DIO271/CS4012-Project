@@ -10,6 +10,7 @@ text-align: center;
 {
 background-color: white;
 padding: 1rem;
+height: 1em;
 }
 
 .endnote /* the blue numbers which link to where I got information from, again please steal I think its a good mark gainer */
@@ -343,6 +344,19 @@ margin: 1em;
 #top-button
 {
 color: #ffffff;
+}
+
+#bottom-bar-info
+{
+background-color: #000000
+padding-left: 10em;
+padding-top: 10em;
+}
+
+.table-text
+{
+color: #ffffff;
+margin: 5em;
 }
 
 .font
