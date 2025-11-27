@@ -46,9 +46,14 @@ opacity: 50%; /* this is for the image hovering incase it wasn't clear */
 display: block;
 margin-left: auto;
 margin-right: auto;
+<<<<<<< HEAD
 margin-top: 140px;
 border: 10px solid #f6f6f6;
 box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+=======
+border: 10px solid #f6f6f6;
+box-shadow: 0 0 8px 1px rgba(0, 140, 186, 0.5);
+>>>>>>> 718c6ce10a086d25660995d2e80b7d49bda2a076
 }
 
 .left-aside
@@ -312,7 +317,11 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 #Mary-Peters-medal
 {
+<<<<<<< HEAD
 margin-left: 21em;
+=======
+margin-left: 35.5em;
+>>>>>>> 718c6ce10a086d25660995d2e80b7d49bda2a076
 }
 
 
