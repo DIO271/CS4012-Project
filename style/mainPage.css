@@ -6,6 +6,7 @@
     position: relative;
 }
 
+/* Gradient container */
 .gradient-container {
     background: linear-gradient(transparent, #000);
     background-size: cover;
@@ -16,12 +17,14 @@
     height: 70%;
 }
 
+/* Media container */
 .media-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Slideshow text */
 .slideshowText {
     position: absolute;
     z-index: 100;
@@ -91,6 +94,7 @@ a {
     background-color: #717171;
 }
 
+/*Olympic rings become half transperent on hover*/
 #main:hover {
     opacity: 50%;
 }
