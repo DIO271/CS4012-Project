@@ -11,7 +11,7 @@
 
 <div class="topnav">
     <a class="active" href="#home"><img src = "images/olympicRings.png" id = "main" style= "width: 4.3rem; height: 2.5rem; top: 2rem;"></img></a>
-    <a href="#images">Images</a>
+    <a href="#summary">Summary</a>
     <a href="contacts.html">Contact Us</a>
     <a href="References.html">References</a>
 </div>
@@ -57,6 +57,34 @@
         <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 <hr>
+
+<article>
+    <h1 style="font-family: 'Times New Roman', Times, serif, sans-serif; font-size: 300%; text-align: center;">Discover the most unique and memorable olympic games!</h1>
+    <p style="font-size: 200%; text-align: center;">This website is about the most interesting (subjectively) olympic games. 
+        We choose 1904 summer olympics which was held in St.Louis, 1972 summer olympics held in Munich and 1992 summer 
+        olympics held in Barcelona. Below you can hear the olympic hymn and see the opening ceremony for the last 
+        olympic games held in Paris in 2024.</p>
+</article>
+<hr>
+<h1 style="text-align: center; font-size: 300%;">Olympic hymn</h1>
+<div class = "media-container">
+    <audio controls>
+        <source src="audio/Olympic Hymn.mp3" type="audio/mpeg" style="justify-content: center; display: f;">
+        Your browser does not support the audio tag.
+    </audio>
+</div>
+<hr>
+<h1 style="text-align:center; font-size: 300%;">Opening Ceremony 2024</h1>
+<div class="media-container">
+    <video width="640" height="360" controls>
+        <source src="video/2024Opening.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<br>
+<hr>
+<h1 style = "text-align: center; font-size: 400%;" id = "summary">Summary of the Olympics</h1>
+
 <article>
     <table>
         <tr>
@@ -88,16 +116,6 @@
         </tr>
     </table>
 </article>
-<article>
-    <h1 style="font-family: 'Times New Roman', Times, serif, sans-serif; font-size: 300%;">Discover the most unique<br>and memorable olympic games!</h1>
-    <p style="font-size: 200%;">This website contains information about the most<br> interesting (subjectively) olympic games.<br>We choose 1904 summer olympics which was held in St.Louis,<br> 1972 summer olympics held in Munich and 1992 summer olympics held in Barcelona.</p>
-</article>
-<div class = "audio-container">
-    <audio controls>
-        <source src="audio/Olympic Hymn.mp3" type="audio/mpeg" style="justify-content: center; display: f;">
-        Your browser does not support the audio tag.
-    </audio>
-</div>
 
 <div>   <!-- To the top of the page -->
     <a href="#main"><img id="white-logo" src="images/whiteRings.jpg" alt="olympicLogo-white"></a>
@@ -110,7 +128,7 @@
     <p id="black-box-text" class="white-text"></p>
     <table id="bottom-bar-info" class="white-text">
         <tr>
-            <th class="table-text">Other Olympic Games</th>
+            <th class="table-text">Olympic Games</th>
             <th>
                 <a class="table-text" href="contacts.html">Contact us</a>
             </th>
@@ -120,12 +138,17 @@
         </tr>
         <tr>
             <td>
-                <a class ="table-text" href="">The 1992 Games</a>
+                <a class ="table-text" href="#main">The 1992 Games</a>
             </td>
         </tr>
         <tr>
             <td>
-                <a class="table-text" href="">The 1904 Games</a>
+                <a class="table-text" href="1972.html">The 1972 Games</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class="table-text" href="#main">The 1904 Games</a>
             </td>
         </tr>
     </table>
