@@ -1,0 +1,8 @@
+
+.swiper .swiper-pagination-bullet-active{
+    background: black;
+}
+.linkText{
+    color: blue;
+    margin-right: .5rem;
+}
