@@ -45,6 +45,10 @@ a {
     text-decoration: none;
 }
 
+.slideshowText a:hover {
+    color: #ccc;
+}
+
 /* Hide the images by default */
 .slides {
     display: none;
