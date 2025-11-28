@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
+    <link rel="stylesheet" href="style/1904.css">
     <link rel="stylesheet" href="style/mainPage.css">
     <link rel="stylesheet" href="style/1972.css">
     <link rel="stylesheet" href="style/1972Boxes.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <meta charset="UTF-8">
     <title>The 1904 United States Olympic games</title>
 </head>
-<script src="scripts/slideshow.js"></script>
+
     <body class="font">
-        <div id="titleBox"> <!-- changing this to stay at the top while scrolling just like the official website -->
-            <div id="topBar"> <!-- the images with imbedded links, see the 1972.css for the opacity and :hover style -->
+        <div id="titleBox"> 
+            <div id="topBar"> 
             <aside class="left-aside">
                 <a href="https://www.olympics.com/en/"><img id="img0" src="images/OlympicRings.png" alt="the Olympic rings"></a>
             </aside>
@@ -19,96 +21,98 @@
             </aside>
             </div>
             <h1 id="titleBar">1904 United States Olympic Games</h1>
-            <div id="linkBar">
-                <ul id="linkBar-list">  <!-- the <a href="#BLANK"> is what makes the "click to jump to" effect, feel free to steal, it works better than I thought. also you can put a tag before the href and change the color and style of it cause the blue is yucky, see the jump to top button for ref -->
-                    <li id="Hosting"><a href="#hosting-article">United States 1st Hosting</a></li>
-                    <li id="participants"><a href="#pne-article">Participants and Events</a></li>
-                    <li id="marathon"><a href="#marathon-article">Marathon</a></li>
-                    <li id="Medal"><a href="#medal-article">Medal Winners</a></li>
+            <div  id="linkBar">
+                <ul id="linkBar-list"> 
+                    <li id="Hosting"><a class="linkText" href="#hosting-article">United States 1st Hosting</a></li>
+                    <li id="participants"><a class="linkText" href="#pne-article">Participants and Events</a></li>
+                    <li id="marathon"><a class="linkText" href="#marathon-article">Marathon</a></li>
+                    
                 </ul>
             </div>
         </div>
 
 
-        <div class="slideshow-container">
-    <div class="slides fade" style="display: block;">
-        <img src="images/1904Main.jpg" style="width:100%; height: 620px; object-fit: cover;">
-    </div>
+        <div class="slideshow-passive">
+        <!-- Slider main container -->
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="images/1904Main.jpg" style="width:100%; height: 620px; object-fit: cover;"></div>
+        <div class="swiper-slide"><img src="images/MenMarathon1904.jpg" style="width:100%; height: 620px; object-fit: cover;"></div>
+        <div class="swiper-slide"><img src="images/1904Track.jpeg" style="width:100%; height: 620px; object-fit: cover;"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
-    <div class="slides fade">
-        <img src="images/MenMarathon1904.jpg" style="width:100%; height: 620px; object-fit: cover;">
-    </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
 
-    <div class="slides fade">
-        <img src="images/1904summerolympicsposter.jpg" style="width:100%; height: 620px; object-fit: cover;">
-    </div> 
-    <div class="subtopic"> <!-- will be adding more content soon, it hard to find enough to write about ngl -->
-       <article id="hosting-article">
-           <h4 class="subtopic-title"> <!-- would really like some help getting the titles to have a little margin to push them down from the off-white boxes. Thanks -->
-               The Munich Massacre
-           </h4>
-           <p class="tragedy-text">
-                On the evening of September 5th, 1972. Eleven israeli athletes were taken hostage by members of the Palestinian organisation "Black September". [<span class="endnote"> <a href="https://en.wikipedia.org/wiki/1972_Summer_Olympics">4</a></span>]
-           </p>
-           <p class="tragedy-text">
-               The group of terrorists broke into the Olympic village "just before dawn" [<span class="endnote"><a href="https://en.wikipedia.org/wiki/1972_Summer_Olympics">5</a></span>].
-               During the break in, two of the athletes present were killed by gunshot wounds in a struggle. The other nine, along with their coaches and some officials, were held captive in their dorm for almost 18 hours in a stand-off with German police and negotiators.
-               After this long negotiation period, the terrorists were left with just the nine israeli athletes as hostages and had secured transport for themselves and the hostages.
-               With transport secured and a destination set for an unknown country in the middle East, the German police decided to make a move before their plane could leave.
-           </p>
-           <p class="tragedy-text">
-               In the late evening of September 5th, the hostages and "black September" members were moved by helicopter to the military airport of Fürstenfeldbruck, where they had organised to be met by a plane bound East.
-               upon arriving, the police ambushed them in an attempt to rescue all hostages present. This however, tragedically failed. During the ambush, all hostages were killed by the terrorist aboard the plane.
-               Some killed by an explosion while the rest were promptly shot [<span class="endnote"><a href="https://thelab.bleacherreport.com/transcend/#munich-massacre">6</a></span>].
-           </p>
-           <p class="tragedy-text">
-               In the resulting chaos, all but three of the terrorists received the same fate as their former hostages being killed in a firefight with police.
-               The remaining members were arrested and stood pending trial in Germany.
-               This however, was cut short in October of the same year
-           </p>
-           <p class="tragedy-text">
-               On October 29th 1972, Lufthansa flight 615 was hijacked by the same terror organisation in an attempt to "liberate" the remaining prisoners for the Munich Massacre.
-           </p>
-           <p class="tragedy-text">
-               The trio were released following demands of the terrorists aboard flight 615. The handover occurred at Zagreb airport, Croatia.
-               Holding up their end of the deal, the plane landed at Tripoli, Libya, where all the hostages were handed over successfully [<span class="endnote"><a href="https://en.wikipedia.org/wiki/Lufthansa_Flight_615">7</a></span>].
-           </p>
-       </article>
-    </div>
+ 
+        </div>
+
+        <div class="subtopic"> 
+            <article id="hosting-article">
+                <img id="Gold-medal" class="right-aside" src="images/1904summerolympicsposter.jpg" alt="Gold medal for the Event (won by Mary Peters)">
+                <h4 class="subtopic-title">
+               The United States First Hosting
+                </h4>
+                <p>
+                    The 1904 Olympic Games were some of the first to be hosted and as such they set several traditions for what the Olympic games would be.
+                    This was the first Olympic to actually use the famous gold, silver, and bronze medals that are now intrinsically linked to the identity of the Olympic Games. 
+                    The events of Boxing, Free Style Wrestling, Decathlon and Dumbbell Weightlifting also all made there first debut as olympic events.
+                </p>
+                <p id="medal-text"> <!-- put in images later when all the text and other formatting is done, is that the best way to do it? probably not but it is for now. -->
+               Since the 1904 Olympic Games were only the third to be held, they did not have the same notoriety or prestige that they do today. 
+               In fact they were not even condsidered the main event as the United States combined the Olympics with the St. Louis festival celibrating the 100 year anniversary of the Louisiana Purchase.
+                
+                </p>
+                <p>
+                    As such the games were both poorly funded and poorly attended with only 650 total competitors the vast majority coming from within the United States itself.
+                    Another major factor in the poor attendance of these Olympic Games was the rising tension in Europe over the Russo-Japanese war.
+                    This poor turn out predictably lead to the United States taking home the majority of the medals across all event and lead some of the events to only have American athletes.
+
+                </p>
+            
+            </article>
+        </div>
+
         <div class="subtopic"> <!-- subtopic class for background color which isn't great but left in to relate to the article styling on the official site -->
             <article id="pne-article">
                 <h4 class="subtopic-title">
                     Participants and Events
                 </h4>
-                <p id="pne-text">
-                    121 teams took part in the 1972 Munich Olympic games competing across 195 events. [<span class="endnote"><a href="https://en.wikipedia.org/wiki/1972_Summer_Olympics">1</a></span>]
-                </p>
-                <p id="participants-list">
-                    The full list of countries which competed in the games are:
-                </p>
-                <p id="events-list">
-                    and the full list of games played is:
-                </p>
-                    <img id="participants-img" src="images/participants.png" alt="participants list">
-                    <img id="events-img" src="images/events.png" alt="events list">
-                <p id="pne-endnote">[<span class="endnote"><a href="https://olympic-museum.de/part_count/olympic-games-participating-countries-1972.php">2</a></span>]</p>
                 <p>
-                    of these events, Ireland only participated in:
+                    Only fifteen countries participated in the 1904 Olympic Games those being Australia, Austria, Canada, Cuba, France, Germany, Great Britain, Greece, Hungary, Italy, Norway, Newfoundland, South Africa, Switzerland, and of course the United States.
+                    [<span class="endnote"><a href="https://olympic-museum.de/part_count/olympic-games-participating-countries-1904.php">1</a></span>]
                 </p>
-                <ul id="irelands-participation">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <p>
+                    The number of events in this Olympic were considerably smaller than more modern events as this was America's first hosting, and the Olympics itself was still in its infancy only having been around for eight years by this point. In total there were only sixteen events this year. These events include:
+                    [<span class="endnote"><a href="https://www.topendsports.com/events/summer/sports/1904.htm">1</a></span>]
+                </p>
+                <h4>Aquatics (which includes diving, swimming, and waterpolo)</h4>
+                <h4>Archery</h4>
+                <h4>Athletics</h4>
+                <h4>Boxing</h4>
+                <h4>Cycling</h4>
+                <h4>Fencing</h4>
+                <h4>Football</h4>
+                <h4>Golf</h4>
+                <video class="right-aside" width="300" height="200" controls >
+                <source src="video/Highlights of the St. Louis 1904 Olympic Games - Olympics (720p, h264).mp4" type="video/mp4">
+                </video>
+                <h4>Gymnastics</h4>
+                <h4>Lacrosse</h4>
+                <h4>Roque</h4>
+                <h4>Rowing</h4>
+                <h4>Tug of War</h4>
+                <h4>Tennis</h4>
+                <h4>Weightlifting</h4>
+                <h4>Wrestling</h4>
+                   
+                <p id="pne-endnote">[<span class="endnote"><a href="https://www.olympics.com/en/video/on-the-athletics-track-in-st-louis-in-1904?uxreference=playlist">2</a></span>]</p>
+                
             </article>
         </div>
 
@@ -116,66 +120,25 @@
     <div class="subtopic">
         <article id="marathon-article">
             <h4 class="subtopic-title">
-                Irish Performance
+                The Marathon Mishaps
             </h4>
             <p id="Irish-text">
-                While making it to the Olympics, Ireland did not win any medals over the two week long event.
-                only advancing in Athletics, (3 athletes in the Men's marathon and one in Women's pentathlon) Cycling (4 athletes in the individual road race) and rowing. (1 athlete in Men's single sculls)
+                The 1904 Olympics is likely best known for the events of the mens marathon. The 1904 marathon currently holds the world record for the slowest time for the Olympic gold medal in this event.
+                The marathon was held in scortching heat on a dirst road which caused dust to be kicked up and getting in the lungs of the runners. Many of the participants ended up dropping out of the race entirely.
             </p>
             <aside class="right-aside">
                 <img id="mary-tracey" src="images/MarathonCar.jpg" alt="Mary Tracey post race 1972">
             </aside>
             <p>
-                Although, unsuccessful in obtaining a medal. A national record was set by Mary Tracey in the Women's 1,500 metres athletics with a time of 4:16.43.
-                A record which only stood for 4 years, until the following Olympics where she broke it again!
+                This time was set by Thomas Hicks from the United States who came in first with a time of three hours, twenty-eight minutes, and fifty-three seconds almost half an hour slower than the next slowest gold medal winner.
+                Thomas Hicks finished the race practically propped up by his coaches as they had been giving him a mixture of liquor, eggs, and rat poison as a stimulant to keep Hicks going.
             </p>
             <p>
-                The record stood for another 16 years until 1996 where it was finally beaten by Sonia O'Sullivan with a time of 4:06.24. Just over 2 seconds faster than the previous time. [<span class="endnote"><a href="https://www.olympiandatabase.com/index.php?id=159225&L=1">3</a></span>]
-                Sadly, the other 58 competitors failed to break any national records or achieve a medal However they are still held in high regards as representing the nation well and as highly capable athletes.
+                However, Thomas Hicks was not actually the first person to cross the finish. That distiction actually goes to Fredrick Lorz who crossed first after catching a ride in a car for most of the race hopping out in the final stretch finish the event. 
+                When this was discovered Fredrick Lorz was disqualified and permanently banned from from competion.(However the ban was lifted as it was decided he had no intention of fraud)[<span class="endnote"><a href="https://www.olympiandatabase.com/index.php?id=159225&L=1">3</a></span>]
+                
             </p>
-            <p>
-                in total, Ireland competed in just 12 sports with 59 athletes, the second highest amount of athletes since the first games following the end of world war two in 1948 which took place in London.
-            </p>
-        </article>
-    </div>
-
-
-    <div class="subtopic">
-        <article id="medal-article">
-            <h4 class="subtopic-title">
-                Medals Awarded
-            </h4>
-            <p id="medal-text"> <!-- put in images later when all the text and other formatting is done, is that the best way to do it? probably not but it is for now. -->
-               despite the interruptions to the games, they continued after only a few hours of delays.
-                after which, the games finished and medals were awarded!
-            </p>
-            <p>
-                The top ten medal winning nations (in order of gold medals):
-            </p>
-            <video class="right-aside" width="300" height="200" controls >
-                <source src="video/1972%20Olympics%20AA%20medal%20ceremony.mp4" type="video/mp4">
-            </video>
-            <p class="right-aside">[<span class="endnote"><a href="https://www.youtube.com/watch?v=Rgj5U0UNB8I">_</a></span>]</p>
-            <p id="medal-info" class="right-aside">
-                These nations won a combined total of 440 medals. (161 gold, 138 silver and 141 bronze)
-                The USSR took home the most gold medals by a large margin (17 medals) and for the time, was their largest received number at a single Olympic event.
-                This record was only beaten 8 years later when the games were hosted in Moscow 1980 (80 gold medals) and again in 1988 in Seoul, South Korea (55 gold medals).
-                These were the only two times the Soviet Union beat the record set at Munich in 1972. [<span class="endnote"><a href="https://en.wikipedia.org/wiki/Soviet_Union_at_the_Olympics">_</a></span>]
-            </p>
-            <h2 id="medal-info-title" class="right-aside">Medal Info:</h2> <!-- trying to put it to the left to mimic the style on the official website but it also doesn't look very good -->
-            <img id="Gold-medal" class="right-aside" src="images/Goldmedal.JPG" alt="Gold medal for the Event (won by Mary Peters)">
-            <ol id="medal-winners">
-                <li>USSR(50)</li> <img id="USSR-flag" src="images/USSRflag.jpg" alt="USSR flag">
-                <li>USA(33)</li> <img id="US-flag" src="images/USflag.jpg" alt="USA flag">
-                <li>East Germany(20)</li> <img id="EGerman-flag" src="images/EGermanflag.jpeg" alt="East German flag">
-                <li>West Germany(13)</li> <img id="WGerman-flag" src="images/WGermanflag.jpeg" alt="West German flag">
-                <li>Japan(13)</li> <img id="Japanese-flag" src="images/Japaneseflag.jpeg" alt="Japanese flag">
-                <li>Australia(8)</li> <img id="Australian-flag" src="images/Australianflag.jpeg" alt="Australian flag">
-                <li>Poland(7)</li> <img id="Polish-flag" src="images/Polishflag.jpeg" alt="Polish flag">
-                <li>Hungary(6)</li> <img id="Hungarian-flag" src="images/Hungarianflag.jpeg" alt="Hungarian flag">
-                <li>Bulgaria(6)</li> <img id="Bulgarian-flag" src="images/Bulgarianflag.jpeg" alt="Bulgarian flag">
-                <li>Italy(5)</li> <img id="Italian-flag" src="images/Italianflag.jpeg" alt="Italian flag">
-            </ol>
+            
         </article>
     </div>
     <div>   <!-- set up the link to main page -->
@@ -190,9 +153,29 @@
         </p>
         <table id="bottom-bar-info" class="white-text">
             <tr><th class="table-text">Other Olympic Games</th><th><a class="table-text" href="contacts.html">Contact us</a></th><<th><a class="table-text" href="References.html">References Sited</a></th></tr>
-            <tr><td><a class ="table-text" href="mainPage.html">The 1992 Games</a></td></tr>
+            <tr><td><a class ="table-text" href="1992.html">The 1992 Games</a></td></tr>
             <tr><td><a class="table-text" href="1972.html">The 1972 Games</a></td></tr>
         </table>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+        el: '.swiper-pagination',
+        clickable: true,    
+        },
+
+        // Navigation arrows
+        
+    });
+    </script>
     </body>
 </html>
