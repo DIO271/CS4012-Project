@@ -18,6 +18,14 @@ padding: 0.2em;
 margin-top: 10em;
 }
 
+#Cyan-ref-title
+{
+width: 160px;
+background-color: #f7f7f7;
+padding: 0.2em;
+margin-top: 8em;
+}
+
 #contact-title
 {
 text-align: center;
@@ -64,11 +72,11 @@ background-color: #f6f6f6;
 
 .ref-table-text
 {
-color: #ffffff;
+color: #000000;
 margin: 2em;
 }
 
-#references
+.references
 {
 background-color: white;
 padding: 0.1em;
@@ -82,7 +90,7 @@ padding-top: 1em;
 padding-bottom: 1em;
 }
 
-#table-top
+.table-top
 {
 background-color: #f7f7f7;
 padding: 0.5em;
